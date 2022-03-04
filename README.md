@@ -16,5 +16,27 @@ Neighbours that share boundaries are ordered by boundary length, with the longes
 The LAD codes at index >0 are ordered by proximity from the subject's centroid to the nearest corner of the neighbour's bounding box. They do not include LADs that share boundaries (ie. those included in index 0). These have been calculated by creating bounding boxes for all LADs, then extracting the vertices for these BBs in QGIS. A distance matrix between all centroids and all BB corners has been filtered to find the nearest neighbours. This matrix has been reduced to include only the nearest few local authorities.
 
 <h4>Example: E06000001 - Hartlepool</h4>
-<img src="https://user-images.githubusercontent.com/6584653/156748843-7f2355ed-52f2-42c9-85a0-fb821e4948ee.png" width=500></img>
+   <code> "E06000001": [
+        [
+            "E06000004",
+            "E06000047",
+            "E06000003"
+        ],
+        "E06000002",
+        "E06000005",
+        "E08000024",
+        "E07000168",
+        "E06000057",
+        "E07000166",
+        "E07000164",
+        "E07000167",
+        "E08000037",
+        "E08000023",
+        "E08000022",
+        "E08000021",
+        "E07000165",
+        "E06000011",
+        "E07000163",
+        "E07000030"
+    ]</code><img src="https://user-images.githubusercontent.com/6584653/156748843-7f2355ed-52f2-42c9-85a0-fb821e4948ee.png"></img>
 
