@@ -3,7 +3,7 @@ A lookup of neighbouring and nearby LA districts using 2021 census geographies
 
 <h4>Use</h4>
 The objective in creating this dataset was to identify neighbouring places for use in analysis, mapping and robojournalism so that a person reading about a Local Authority will have that LA compared to the most relevant nearby LAs. These are considered to be:
-1: those that share boundaries, ordered by the length of the boundary from longest to shortest,
+1: those that share boundaries, ordered by the length of the shared boundary from longest to shortest,
 2: those that have boundaries that are close to the subject LA, ordered by distance from the centroid of A to the boundary of B.
 
 <h4>Structure</h4>
